@@ -16,13 +16,11 @@ export default function MainGenerator({ rule, items, every, tainted }) {
     let taintedChars = tainted;
     
     const [isLoaded, setIsLoaded] = useState(false);
-    const[isGenerated, setIsGenerated] = useState(false);
     const[generation, setGeneration] = useState([]);
     const [newCharacter, setNewCharacter] = useState(true);
     const [characterName, setCharacterName] = useState('');
     const [characterInfo, setCharacterInfo] = useState('');
     const[submit, setSubmit] = useState(false);
-    const[generated, setGenerated] = useState(false);
 
     const URL = 'http://localhost/challengegenerator/';
 
@@ -73,7 +71,6 @@ export default function MainGenerator({ rule, items, every, tainted }) {
           (res) => {
      
             if(status === 200) {
-                setIsGenerated(true);
                 setIsLoaded(true);
            } else {
              alert(res.error);
@@ -135,7 +132,7 @@ export default function MainGenerator({ rule, items, every, tainted }) {
                 </tr>
                 </thead>
                 {generation.map(generation => (
-                <tbody>
+                <tbody key={generation.ch_name}>
                 <tr>
                     <td>Devil/Angel</td>
                     <td>{generation.deal}</td>
@@ -161,7 +158,7 @@ export default function MainGenerator({ rule, items, every, tainted }) {
         </div>
         <div className="col-xl-6 mt-1">
         {generation.map(generation => (
-            <Card className="generatorblock">
+            <Card key={generation.info} className="generatorblock">
                 <Card.Title className="charactername">{generation.ch_name}</Card.Title>
                 <Card.Body>
                 <Whotowhere charPic={generation.ch_pic} bossPic={generation.boss_pic}/>
@@ -199,13 +196,13 @@ export default function MainGenerator({ rule, items, every, tainted }) {
         </div>
 
         </div>
-        <div className={"row pt-3" + `div ${everyitems ? "hidden" : ""}`}>
+        <div className={'row pt-3' + `div ${everyitems ? "hidden" : ""}`}>
         <Everyitemis />
         </div>
-        <div className={"row pt-3" + `div ${itemscombo ? "hidden" : ""}`}>
+        <div className={'row pt-3' + `div ${itemscombo ? "hidden" : ""}`}>
         <Itemcombo />
         </div>
-        <div className={"row pt-3" + `div ${extrarules ? "hidden" : ""}`}>
+        <div className={'row pt-3' + `div ${extrarules ? "hidden" : ""}`}>
         <Extrarule />
         </div>
         </>

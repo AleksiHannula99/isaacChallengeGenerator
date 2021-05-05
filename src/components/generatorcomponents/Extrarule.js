@@ -36,7 +36,7 @@ export default function Extrarule() {
     return (
         <div className="col-12 mt-2">
             {rule.map(rule => (
-            <div className="optional-adds p-1">
+            <div key={rule.rule} className="optional-adds p-1">
             <h2>Extra rule</h2>
             <p className="rule">{rule.rule}</p>
             </div>

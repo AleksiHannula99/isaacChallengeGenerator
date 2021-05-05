@@ -175,12 +175,15 @@ export default function RulesCharacters() {
             <h1>Characters</h1>
 
             <table>
+                <thead>
                 <tr>
                     <th>Name</th>
                     <th>Info</th>
                 </tr>
+                </thead>
+
+                <tbody>
                 {chars.map(char => (
-                <>
                 <tr key={char.ch_id}>
                     <td>
                     {editChar?.ch_id !== char.ch_id &&
@@ -217,19 +220,21 @@ export default function RulesCharacters() {
                     
                      </td>
                 </tr>
-                </>
                 ))}
+                </tbody>
             </table>
 
             <h1>Rules</h1>
 
             <table className="text-center largetext">
+                <thead>
                 <tr>
                     <th>Rule</th>
                 </tr>
+                </thead>
+                <tbody>
                 {rules.map(rules => (
-                <>
-                <tr>
+                <tr key={rules.extra_id}>
                     <td>
                     {editRule?.extra_id !== rules.extra_id &&
                     rules.rule
@@ -254,8 +259,8 @@ export default function RulesCharacters() {
                     }
                      </td>
                 </tr>
-                </>
                 ))}
+                </tbody>
             </table>
         </div>
     )

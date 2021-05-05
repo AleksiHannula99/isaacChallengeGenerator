@@ -39,7 +39,7 @@ export default function Itemcombo() {
             <div className="optional-adds p-1">
             <h2>ITEM COMBO</h2>
             {itemCombo.map(item => (
-            <Badge variant="danger" className="badgething border border-dark">
+            <Badge key={item.item} variant="danger" className="badgething border border-dark">
                 {item.item}
             </Badge>
             ))}

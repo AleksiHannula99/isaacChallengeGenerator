@@ -37,7 +37,7 @@ export default function Everyitemis() {
     return (
         <div className="col-12 mt-2">
              {everyItem.map(item => (
-            <div className="optional-adds p-1">
+            <div key={item.item} className="optional-adds p-1">
             <h2>EVERY ITEM IS</h2>
             <Badge variant="danger" className="badgething">
                 {item.item}
