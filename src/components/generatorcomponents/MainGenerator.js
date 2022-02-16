@@ -123,7 +123,7 @@ export default function MainGenerator({ rule, items, every, tainted }) {
     return (
         <>
         <div className="row">
-        <div className="col-xl-6">
+        <div className="col-xl-6 generateTable">
             <table className="generatorblock text-center">
                 <thead>
                 <tr>

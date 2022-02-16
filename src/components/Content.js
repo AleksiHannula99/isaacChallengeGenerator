@@ -10,7 +10,7 @@ export default function Content() {
     const[tainted, setTainted] = useState(true);
 
     return (
-        <div>
+        <div className="contentBackground">
 
             <Optionals
             showBlocks={ruleShow => setRuleShow(ruleShow)}

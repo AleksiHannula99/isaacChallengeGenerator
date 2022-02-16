@@ -50,7 +50,7 @@ export default function Optionals(props) {
 
     return (
         <div className="row">
-        <div className="col-md-5">
+        <div className="col-12">
             <section className="optionals-box p-3 pl-5">
             <h4>Optionals</h4>
 

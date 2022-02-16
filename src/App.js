@@ -12,7 +12,7 @@ import Footer from './components/Footer';
 function App() {
   
   return (
-    <div className="container-fluid">
+    <div className="container">
       <main>
         <Navigation />
         <Switch>

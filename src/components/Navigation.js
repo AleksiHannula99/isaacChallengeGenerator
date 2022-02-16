@@ -5,7 +5,7 @@ import React from 'react'
 
 export default function Navigation() {
     return (
-        <Navbar bg="navbar" expand="lg">
+        <Navbar bg="navbar" expand="xl">
             <Navbar.Brand href="/">
                 <img
                     alt="Repentance challenge generator"
@@ -19,7 +19,7 @@ export default function Navigation() {
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
                 <Nav.Link className="ml-lg-5 p-4 navbar-item text-center" href="/">Home</Nav.Link>
-                <Nav.Link className="p-4 navbar-item" href="RulesCharacters">Rules and Characters</Nav.Link>
+                <Nav.Link className="p-4 navbar-item text-center" href="RulesCharacters">Rules&Characters</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

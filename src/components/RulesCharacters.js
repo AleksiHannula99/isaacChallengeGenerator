@@ -171,7 +171,7 @@ export default function RulesCharacters() {
      }
      else {
     return (
-        <div>
+        <div className="contentBackground">
             <h1>Characters</h1>
 
             <table>
