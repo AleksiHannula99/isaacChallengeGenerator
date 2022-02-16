@@ -16,7 +16,7 @@ Select what kind of a challenge you are looking for
 
 
 ![App Screenshot](https://github.com/HabbuBB/isaacChallengeGenerator/blob/master/src/img/DemoCapture3.PNG)
-![App Screenshot](https://github.com/HabbuBB/isaacChallengeGenerator/blob/master/src/img/DemoCapture.PNG2)
+![App Screenshot](https://github.com/HabbuBB/isaacChallengeGenerator/blob/master/src/img/DemoCapture2.PNG)
 
 Find out what your goal is
 
@@ -25,7 +25,7 @@ Find out what your goal is
 
 Add/edit additional rules and characters
 
-![App Screenshot](https://github.com/HabbuBB/isaacChallengeGenerator/blob/master/src/img/DemoCapture.PNG4)
+![App Screenshot](https://github.com/HabbuBB/isaacChallengeGenerator/blob/master/src/img/DemoCapture4.PNG)
 
 Great for streamers!
 
