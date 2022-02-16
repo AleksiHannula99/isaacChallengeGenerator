@@ -15,16 +15,17 @@ Select what kind of a challenge you are looking for
 
 
 
-![App Screenshot](src\img\DemoCapture3.PNG)
-![App Screenshot](src\img\DemoCapture2.PNG)
+![App Screenshot](https://github.com/HabbuBB/isaacChallengeGenerator/blob/master/src/img/DemoCapture3.PNG)
+![App Screenshot](https://github.com/HabbuBB/isaacChallengeGenerator/blob/master/src/img/DemoCapture.PNG2)
 
 Find out what your goal is
 
-![App Screenshot](src\img\DemoCapture.PNG)
+![App Screenshot](https://github.com/HabbuBB/isaacChallengeGenerator/blob/master/src/img/DemoCapture.PNG)
+
 
 Add/edit additional rules and characters
 
-![App Screenshot](src\img\DemoCapture4.PNG)
+![App Screenshot](https://github.com/HabbuBB/isaacChallengeGenerator/blob/master/src/img/DemoCapture.PNG4)
 
 Great for streamers!
 
@@ -49,5 +50,7 @@ Alternatively, you could just change the database username and password to what 
 
 ## 🔗 Links
 [[Isaac wiki]](https://bindingofisaacrebirth.fandom.com/wiki/Binding_of_Isaac:_Rebirth_Wiki)
+
+
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aleksi-hannula-127007226/)
 
