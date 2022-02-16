@@ -34,12 +34,13 @@ img {
 }
 
 .navbar {
-  background-color: rgba(27, 27, 27, 0.87);
+  background-color: rgba(92, 91, 91, 0.87);
   font-family: 'Press Start 2P', cursive;
 }
 
 .navbar-item {
   font-size: 2rem;
+  color: black !important;
 }
 
 .navbar-item:hover{

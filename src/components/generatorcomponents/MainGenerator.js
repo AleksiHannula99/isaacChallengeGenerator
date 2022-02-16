@@ -22,7 +22,7 @@ export default function MainGenerator({ rule, items, every, tainted }) {
     const [characterInfo, setCharacterInfo] = useState('');
     const[submit, setSubmit] = useState(false);
 
-    const URL = 'http://localhost/challengegenerator/';
+    const URL = 'http://localhost/challengegeneratorBackEnd/';
 
      //Kertoo tallennuksesta 
      const[saved, setSaved] = useState('');

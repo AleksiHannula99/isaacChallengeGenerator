@@ -18,7 +18,7 @@ export default function Optionals(props) {
     //Kertoo tallennuksesta 
     const[saved, setSaved] = useState('');
 
-    const URL = 'http://localhost/challengegenerator/';
+    const URL = 'http://localhost/challengegeneratorBackEnd/';
 
     function toggleClass(classToShow) {
         if (classToShow === "everyitem") {

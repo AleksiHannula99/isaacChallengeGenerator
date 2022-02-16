@@ -14,7 +14,7 @@ export default function RulesCharacters() {
     //Tätä käytetään listan päivitykseen
     const [submit, setSubmit] = useState(true);
 
-    const URL = 'http://localhost/challengegenerator/';
+    const URL = 'http://localhost/challengegeneratorBackEnd/';
 
     useEffect(() => {
         let status = 0;

@@ -3,7 +3,7 @@ import React from 'react'
 export default function Whotowhere({ charPic, bossPic }) {
     let chPic = "character/" + charPic;
     let bsPic = "bosses/" + bossPic;
-    const imgURL = 'http://localhost/challengegenerator/'
+    const imgURL = 'http://localhost/challengegeneratorBackEnd/'
     return (
         <div className="vspicture">
             <div className="leftup">

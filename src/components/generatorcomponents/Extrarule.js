@@ -3,7 +3,7 @@ import Loading from '../Loading';
 
 export default function Extrarule() {
     const[rule, setRule] = useState('');
-    const URL = 'http://localhost/challengegenerator/randomOptionals/';
+    const URL = 'http://localhost/challengegeneratorBackEnd/randomOptionals/';
     const [isLoaded, setIsLoaded] = useState(false);
 
     useEffect(() => {

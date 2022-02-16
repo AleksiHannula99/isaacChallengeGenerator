@@ -4,7 +4,7 @@ import Loading from '../Loading';
 
 export default function Everyitemis() {
     const[everyItem, setEveryItem] = useState('');
-    const URL = 'http://localhost/challengegenerator/randomOptionals/';
+    const URL = 'http://localhost/challengegeneratorBackEnd/randomOptionals/';
     const [isLoaded, setIsLoaded] = useState(false);
 
     useEffect(() => {
